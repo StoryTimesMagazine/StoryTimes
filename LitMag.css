@@ -19,6 +19,7 @@ body {
   border-width: thick;
   box-sizing: border-box;
   background-color: #fff;
+  border-color: #000;
 }
 
 img#Title {
@@ -51,6 +52,7 @@ img#Crest {
   box-sizing: border-box;
   font-family: "Hind";
   background-color: #fff;
+  border-color: #000;
 }
 
 h3 {
@@ -86,25 +88,6 @@ li#Contents {
   margin-left: -40px
 }
 
-div#EditNote {
-  border: thick solid #000;
-  border-bottom: 10px;
-  border-left: 10px;
-  border-right: 10px;
-}
-
-h3#Note {
-  color: #930a28;
-}
-
-p#Note {
-  color: #920a28;
-  font-size: 20px;
-  position: relative;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
 div.CreditsPage {
   display: block;
   position: relative;
@@ -115,6 +98,7 @@ div.CreditsPage {
   border-width: thick;
   box-sizing: border-box;
   background-color: #fff;
+  border-color: #000;
 }
 
 div#Credits {
