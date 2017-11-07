@@ -89,23 +89,32 @@ li#Contents {
   color: #000;
 }
 
-div#EditNote {
-  border: thick solid #000;
-  border-bottom: 10px;
-  border-left: 10px;
-  border-right: 10px;
-}
-
-h3#Note {
-  color: #930a28;
-}
-
-p#Note {
-  color: #920a28;
-  font-size: 20px;
+div.SubmitionPage {
+  display: block;
   position: relative;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  border-style: solid;
+  border-width: thick;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-color: #000;
+  text-align: center;
+}
+
+p#Submit {
+  font-size: 20px;
+  color: #000;
+}
+
+p#Submit a {
+  font-size: 20px;
+  color: #000;
+}
+
+p#Submit a:hover {
+  color: #930a28;
 }
 
 div.CreditsPage {
