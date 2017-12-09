@@ -22,8 +22,14 @@ body {
   border-color: #000;
 }
 
+div#Title {
+  display: flex;
+  justify-content: center;
+  margin-top: -850px;
+  margin-bottom: -850px;
+}
+
 img#Title {
-  display: block;
   margin: auto;
   height: auto;
   width: 35%;
@@ -31,11 +37,7 @@ img#Title {
 }
 
 img#Crest {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-  margin-top: -80px;
+  margin: auto;
   height: auto;
   width: 35%;
   position: relative;
@@ -68,17 +70,20 @@ p#Contents {
   color: #000;
   font-size: 15px;
   text-align: center;
+  font-family: "Hind";
 }
 
 ul#Contents {
   list-style-type: none;
   text-align: center;
   color: #000;
+  font-family: "Hind";
 }
 
 ul#Contents a {
   color: #000;
   font-size: 20px;
+  font-family: "Hind";
 }
 
 ul#Contents a:hover {
@@ -88,6 +93,7 @@ ul#Contents a:hover {
 li#Contents {
   margin-left: -40px
   color: #000;
+  font-family: "Hind";
 }
 
 div.SubmitionPage {
@@ -108,11 +114,13 @@ p#Submit {
   font-size: 20px;
   color: #000;
   margin-top: 25px;
+  font-family: "Hind";
 }
 
 p#Submit a {
   font-size: 20px;
   color: #000;
+  font-family: "Hind";
 }
 
 p#Submit a:hover {
@@ -154,6 +162,38 @@ li#Credits {
   margin-left: -40px;
   padding: 0px 40px;
   color: #000;
+}
+
+div.Media {
+  display: flex;
+  justify-content: center;
+}
+
+img#Reddit {
+  margin: auto;
+  height: auto;
+  width: 50px;
+  margin-top: 15px;
+  position: relative;
+  padding: 5px;
+}
+
+img#Facebook {
+  margin: auto;
+  height: auto;
+  width: 55px;
+  margin-top: 15px;
+  position: relative;
+  padding: 3px;
+}
+
+img#Instagram {
+  margin: auto;
+  height: auto;
+  width: 50px;
+  margin-top: 15px;
+  position: relative;
+  padding: 5px;
 }
 
 p#meme {
