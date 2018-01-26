@@ -241,9 +241,10 @@ p#meme {
   h4 {
     font-size: 15px;
   }
-  
-  [class*="Page"] {
 
+  [class*="Page"] {
+    position: fixed;
+    min-width: 90%;
   }
 }
 
