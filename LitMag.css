@@ -243,7 +243,6 @@ p#meme {
   }
 
   [class*="Page"] {
-    position: fixed;
     min-width: 90%;
   }
 }
