@@ -222,8 +222,28 @@ p#meme {
     display: none;
   }
 
+  h3  {
+    font-size: 25px;
+  }
+
+  p#Contents {
+    font-size: 5px;
+  }
+
+  ul#Contents a {
+    font-size: 10px;
+  }
+
+  p#Submit a {
+    font-size: 10px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+  
   [class*="Page"] {
-    
+
   }
 }
 
