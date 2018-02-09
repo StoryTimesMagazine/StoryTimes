@@ -223,11 +223,6 @@ p#meme {
     display: hidden;
   }
 
-  * {
-    align-content: center;
-    align-items: center;
-  }
-
   body {
     margin-left: -150px;
     margin-right: 98px;
