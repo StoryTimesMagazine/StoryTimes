@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   background-color: #920a28;
   -webkit-animation: rainbow 5s ease infinite;
@@ -219,7 +220,13 @@ p#meme {
 
 @media only screen and (max-width: 768px) {
   .media {
-    display: none;
+    display: hidden;
+  }
+
+  * {
+    align-content: center;
+    align-items: center;
+    width: auto;
   }
 
   h3  {
@@ -243,7 +250,7 @@ p#meme {
   }
 
   [class*="Page"] {
-    min-width: 90%;
+    width: auto;
   }
 }
 
