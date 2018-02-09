@@ -226,7 +226,6 @@ p#meme {
   * {
     align-content: center;
     align-items: center;
-    width: auto;
   }
 
   h3  {
@@ -250,7 +249,7 @@ p#meme {
   }
 
   [class*="Page"] {
-    width: auto;
+    min-width: 90%;
   }
 }
 
