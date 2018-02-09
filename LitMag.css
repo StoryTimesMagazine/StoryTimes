@@ -228,6 +228,11 @@ p#meme {
     align-items: center;
   }
 
+  body {
+    margin-left: -150px;
+    margin-right: 98px;
+  }
+
   h3  {
     font-size: 25px;
   }
