@@ -220,36 +220,52 @@ p#meme {
 
 @media only screen and (max-width: 768px) {
   .media {
-    display: hidden;
+    display: none;
+  }
+
+  img#Facebook {
+        display: none;
+  }
+  img#Reddit {
+        display: none;
+  }
+  img#Instagram {
+        display: none;
   }
 
   body {
     margin-left: -150px;
     margin-right: 98px;
+    margin-top: -50px;
+    margin-bottom: -30px;
   }
 
   h3  {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   p#Contents {
-    font-size: 5px;
+    font-size: 14px;
   }
 
   ul#Contents a {
-    font-size: 10px;
+    font-size: medium;
   }
 
   p#Submit a {
-    font-size: 10px;
+    font-size: medium;
   }
 
   h4 {
-    font-size: 15px;
+    font-size: 21px;
   }
 
   [class*="Page"] {
     min-width: 90%;
+  }
+
+  li#Credits {
+    padding: 0px 90px;
   }
 }
 
