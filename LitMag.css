@@ -267,6 +267,16 @@ p#meme {
   li#Credits {
     padding: 0px 90px;
   }
+
+  @media only screen and (orientation: landscape) {
+    body {
+      -webkit-animation: rainbow 5s ease infinite;
+      -o-animation: rainbow 5s ease infinite;
+      -moz-aninmation: rainbow 5s ease infinite;
+      animation: rainbow 5s ease infinite;
+      animation-play-state: running;
+    }
+  }
 }
 
 @-webkit-keyframes rainbow {
