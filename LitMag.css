@@ -206,6 +206,11 @@ p#meme {
   position: relative;
 }
 
+form#input {
+  display: none;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 1921px) {
   img#Facebook {
 

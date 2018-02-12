@@ -67,7 +67,7 @@
           <li id="Credits">Mitchell C.</li>
           <li id="Credits">Michael G.</li>
           <br />
-          <li id="Credits">Garrett S.</li>
+          <li class="Garrett" id="Credits">Garrett S.</li>
           <li id="Credits">Gabriel D.</li>
         </ul>
       </div>
@@ -80,17 +80,26 @@
     <script>
       onkeydown = function (e) {
           var code = e.keyCode ? e.keyCode : e.which;
-          if (code == 45) {
-            document.getElementById("meme").innerHTML = "I don't like sand";
-            document.body.style.background = " linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3)";
-            document.body.style.backgroundSize = "1800% 1800%";
-            document.body.style.animationPlayState = "running";
-            document.body.style.WebkitAnimationPlayState = "running";
-            document.body.style.oAnimationPlayState = "running";
-            document.body.style.mozAnimationPlayState = "running";
+          if (code == 192) {
+            document.getElementById("input").style.display = "flex";
           }
       }
+      function technicolor() {
+        var secret = document.getElementById("secret").value;
+        document.getElementById("meme").innerHTML = "I don't like sand";
+        document.body.style.background = " linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3)";
+        document.body.style.backgroundSize = "1800% 1800%";
+        document.body.style.animationPlayState = "running";
+        document.body.style.WebkitAnimationPlayState = "running";
+        document.body.style.oAnimationPlayState = "running";
+        document.body.style.mozAnimationPlayState = "running";
+        alert("Technocolor activated");
+        document.getElementById("input").style.display = "none";
+      }
     </script>
+    <form id="input" onclick="return technicolor()">
+      <input type="button" id="secret" size="20" name="secret">
+    </form>
     <p id="meme"> </p>
   </body>
 </html>
