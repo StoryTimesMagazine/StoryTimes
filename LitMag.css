@@ -94,7 +94,7 @@ ul#Contents a:hover {
 }
 
 li#Contents {
-  margin-left: -40px
+  margin-left: -40px;
   color: #000;
   font-family: "Hind";
 }
@@ -165,6 +165,12 @@ li#Credits {
   margin-left: -40px;
   padding: 0px 40px;
   color: #000;
+}
+
+form#input {
+  display: none;
+  position: flex;
+  justify-content: center;
 }
 
 div.Media {
