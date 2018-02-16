@@ -253,13 +253,9 @@ p#meme {
     font-size: 30px;
   }
 
-  p#Contents {
-    font-size: 14px;
-  }
-
-  a#Contents {
+  a.Contents {
     font-size: medium;
-    width: 50%;
+    width: 25%;
   }
 
   p#Submit a {
@@ -275,7 +271,7 @@ p#meme {
   }
 
   li#Credits {
-    padding: 0px 80px;
+    padding: 0px 70px;
   }
 }
 
