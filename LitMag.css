@@ -94,7 +94,7 @@ ul#Contents a:hover {
 }
 
 li#Contents {
-  margin-left: -40px
+  margin-left: -40px;
   color: #000;
   font-family: "Hind";
 }
@@ -206,20 +206,36 @@ p#meme {
   position: relative;
 }
 
+.Garrett {
+  -webkit-animation: rainbow 5s ease infinite;
+  -o-animation: rainbow 5s ease infinite;
+  -moz-aninmation: rainbow 5s ease infinite;
+  animation: rainbow 5s ease infinite;
+  animation-play-state: paused;
+}
+
 form#input {
   display: none;
   justify-content: center;
 }
 
 @media only screen and (min-width: 1921px) {
+  img#Title {
+    display: relative;
+    justify-content: inherit
+  }
+  img#Crest {
+    display: relative;
+    justify-content: inherit
+  }
   img#Facebook {
-
+    display: none;
   }
   img#Reddit {
-
+    display: none;
   }
   img#Instagram {
-
+    display: none;
   }
 }
 
@@ -229,13 +245,13 @@ form#input {
   }
 
   img#Facebook {
-        display: none;
+    display: none;
   }
   img#Reddit {
-        display: none;
+    display: none;
   }
   img#Instagram {
-        display: none;
+    display: none;
   }
 
   body {
@@ -303,7 +319,6 @@ form#input {
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
-
 @-webkit-keyframes unicorn {
   from {
     left: 0;
@@ -311,4 +326,4 @@ form#input {
   to {
     left: 100%;
   }
-}
+}}
