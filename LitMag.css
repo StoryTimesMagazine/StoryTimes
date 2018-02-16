@@ -94,7 +94,7 @@ ul#Contents a:hover {
 }
 
 li#Contents {
-  margin-left: -40px;
+  margin-left: -40px
   color: #000;
   font-family: "Hind";
 }
@@ -206,98 +206,52 @@ p#meme {
   position: relative;
 }
 
-.Garrett {
-  -webkit-animation: rainbow 5s ease infinite;
-  -o-animation: rainbow 5s ease infinite;
-  -moz-aninmation: rainbow 5s ease infinite;
-  animation: rainbow 5s ease infinite;
-  animation-play-state: paused;
-}
-
-form#input {
-  display: none;
-  justify-content: center;
-}
-
 @media only screen and (min-width: 1921px) {
-  img#Title {
-    display: relative;
-    justify-content: inherit
-  }
-  img#Crest {
-    display: relative;
-    justify-content: inherit
-  }
   img#Facebook {
-    display: none;
+
   }
   img#Reddit {
-    display: none;
+
   }
   img#Instagram {
-    display: none;
+
   }
 }
 
 @media only screen and (max-width: 768px) {
   .media {
-    display: none;
-  }
-
-  img#Facebook {
-    display: none;
-  }
-  img#Reddit {
-    display: none;
-  }
-  img#Instagram {
-    display: none;
+    display: hidden;
   }
 
   body {
     margin-left: -150px;
     margin-right: 98px;
-    margin-top: -50px;
-    margin-bottom: -30px;
   }
 
   h3  {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   p#Contents {
-    font-size: 14px;
+    font-size: 5px;
   }
 
   ul#Contents a {
-    font-size: medium;
+    font-size: 10px;
   }
 
   p#Submit a {
-    font-size: medium;
+    font-size: 10px;
   }
 
   h4 {
-    font-size: 21px;
+    font-size: 15px;
   }
 
   [class*="Page"] {
     min-width: 90%;
   }
-
-  li#Credits {
-    padding: 0px 80px;
-  }
 }
-
-@media only screen and (orientation: landscape) and (max-height: 768px) {
-  body {
-    -webkit-animation: rainbow 5s ease infinite;
-    -o-animation: rainbow 5s ease infinite;
-    -moz-aninmation: rainbow 5s ease infinite;
-    animation: rainbow 5s ease infinite;
-    animation-play-state: running;
-  }
 
 @-webkit-keyframes rainbow {
     0%{background-position:0% 82%}
@@ -319,6 +273,7 @@ form#input {
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
+
 @-webkit-keyframes unicorn {
   from {
     left: 0;
@@ -326,4 +281,4 @@ form#input {
   to {
     left: 100%;
   }
-}}
+}
