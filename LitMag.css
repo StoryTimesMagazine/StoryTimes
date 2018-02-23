@@ -11,7 +11,6 @@ body {
   animation-play-state: paused;
 }
 
-
 .TitlePage {
   display: block;
   position: relative;
@@ -77,29 +76,17 @@ a.Contents {
   display: block;
   text-align: center;
   margin: 25px auto;
-  width: 13%;
+  width: 10%;
   text-decoration: none;
   cursor: pointer;
   font-size: 20px;
   font-weight: 500;
-  vertical-align: middle;
+  position: relative;
 }
 
 a.Contents:hover {
   color: #920a28;
   background: #000;
-}
-
-a#1 {
-  margin: auto;
-  height: auto;
-  position: relative;
-}
-
-a#2 {
-  margin: auto;
-  height: auto;
-  position: relative;
 }
 
 div.SubmitionPage {
@@ -116,21 +103,25 @@ div.SubmitionPage {
   text-align: center;
 }
 
-p#Submit {
-  font-size: 20px;
-  color: #000;
-  margin-top: 25px;
+a#Submit {
   font-family: "Hind";
+  color: #000;
+  border: 3px solid #000;
+  padding: 15px 10px;
+  display: block;
+  text-align: center;
+  margin: 25px auto;
+  width: 13%;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
 }
 
-p#Submit a {
-  font-size: 20px;
-  color: #000;
-  font-family: "Hind";
-}
-
-p#Submit a:hover {
+a#Submit:hover {
   color: #920a28;
+  background: #000;
 }
 
 div.CreditsPage {
@@ -216,84 +207,98 @@ p#meme {
 }
 
 @media only screen and (min-width: 1921px) {
-  img#Facebook {
-
-  }
-  img#Reddit {
-
-  }
-  img#Instagram {
-
-  }
+  img#Facebook {}
+  img#Reddit {}
+  img#Instagram {}
 }
 
 @media only screen and (max-width: 768px) {
   .media {
     display: none;
   }
-
   img#Facebook {
-        display: none;
+    display: none;
   }
   img#Reddit {
-        display: none;
+    display: none;
   }
   img#Instagram {
-        display: none;
+    display: none;
   }
-
   body {
     margin-left: -150px;
     margin-right: 98px;
     margin-top: -50px;
     margin-bottom: -30px;
   }
-
-  h3  {
+  h3 {
     font-size: 30px;
   }
-
   a.Contents {
     font-size: medium;
     width: 25%;
   }
-
-  p#Submit a {
+  a#Submit {
+    width: 25%;
     font-size: medium;
   }
-
   h4 {
     font-size: 21px;
   }
-
   [class*="Page"] {
     min-width: 90%;
   }
-
   li#Credits {
     padding: 0px 70px;
   }
 }
 
 @-webkit-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
+  0% {
+    background-position: 0% 82%
+  }
+  50% {
+    background-position: 100% 19%
+  }
+  100% {
+    background-position: 0% 82%
+  }
 }
+
 @-moz-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
+  0% {
+    background-position: 0% 82%
+  }
+  50% {
+    background-position: 100% 19%
+  }
+  100% {
+    background-position: 0% 82%
+  }
 }
+
 @-o-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
+  0% {
+    background-position: 0% 82%
+  }
+  50% {
+    background-position: 100% 19%
+  }
+  100% {
+    background-position: 0% 82%
+  }
 }
+
 @keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
+  0% {
+    background-position: 0% 82%
+  }
+  50% {
+    background-position: 100% 19%
+  }
+  100% {
+    background-position: 0% 82%
+  }
 }
 
 @-webkit-keyframes unicorn {
