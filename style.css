@@ -81,26 +81,22 @@ nav a:hover::before {
 }
 
 main {
-  position:absolute;
   background:#222;
   margin-top:35px;
 }
 
-main li {
-  margin-right:10px;
-  margin-left:10px;
-}
-
-main p {
-  text-align:center;
-  margin-left:558px;
-  margin-right:558px;
-  font-size:50px;
-  color:#fff;
-}
-
 #links div {
+  background:#222;
+  text-align:center;
   border:5px solid #111;
+}
+
+#links p {
+  color:#fff;
+  font-size:50px;
+  margin-top:40px;
+  margin-bottom:40px;
+  display:relative;
 }
 
 .editor-in-chief {
