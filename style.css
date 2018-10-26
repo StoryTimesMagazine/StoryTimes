@@ -92,11 +92,57 @@ main {
 }
 
 #links p {
-  color:#fff;
-  font-size:50px;
+  color:#ddd;
+  font-size:45px;
   margin-top:40px;
   margin-bottom:40px;
   display:relative;
+}
+
+#links ul {
+  list-style:none;
+}
+
+#links li {
+  display:inline-block;
+  margin-bottom:40px;
+  margin-left:35px;
+  margin-right:35px;
+  position:relative;
+}
+
+li#thisyear {
+  margin-bottom:40px;
+  margin-top:40px;
+}
+
+#links a {
+  color:#ddd;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:35px;
+  transition:color ease 250ms;
+}
+
+#links a:hover {
+  color:#fff;
+}
+
+#links a::before {
+  content:'';
+  display:block;
+  margin-top:40px;
+  height:5px;
+  width:0%;
+  background-color:#ddd;
+  position:absolute;
+  top:0;
+  transition:all ease-in-out 250ms;
+}
+
+#links a:hover::before {
+  width:100%;
+  color:#fff;
 }
 
 .editor-in-chief {
