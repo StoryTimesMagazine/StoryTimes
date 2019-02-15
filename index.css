@@ -1,69 +1,71 @@
 @import url(https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css);
 
 html {
-  height:100%;
+  height: 100%;
 }
 
 body {
-  margin:0;
+  margin: 0;
   background-image:
-    linear-gradient(
-      rgba(0,0,0,0.5),
-      rgba(0,0,0,0.5)
-    ),
-    url("Assets/Background.png");
-  background-size:cover;
-  background-position:center;
-  background-attachment:fixed;
-  font-family:"Fira Code";
-  font-weight:400;
+    linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)),
+    url("Assets/Background2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Franklin Gothic";
+  font-weight: 400;
 }
 
 main {
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+
+main img {
+  transform: scale(1.25);
 }
 
 .links ul {
-  margin:0;
-  padding:0;
-  list-style:none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .links li {
-  position:relative;
-  display:inline-block;
-  text-align:center;
-  margin-top:0;
-  margin-left:20px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 .links a {
-  color:#ddd;
-  text-decoration:none;
-  font-size:20px;
-  text-transform:uppercase;
-  transition:color ease 250ms;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: color ease 250ms;
 }
 
 .links a::before {
-  content:'';
-  display:block;
-  margin-top:20px;
-  height:3px;
-  width:0%;
-  background-color:#ddd;
-  position:absolute;
-  transition:all ease-in-out 250ms;
+  content: '';
+  display: block;
+  margin-top: 20px;
+  height: 3px;
+  width: 0%;
+  background-color: #000;
+  position: absolute;
+  transition: all ease-in-out 250ms;
 }
 
 .links a:hover {
-  color:#fff;
+  color: #000;
 }
 
 .links a:hover::before {
-  width:100%;
-  background-color:#fff;
+  width: 100%;
+  background-color: #000;
 }
