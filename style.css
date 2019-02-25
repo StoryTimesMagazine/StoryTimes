@@ -110,7 +110,7 @@ main {
   position: relative;
 }
 
-li#thisyear {
+li .thisyear {
   margin-bottom: 40px;
   margin-top: 40px;
 }
