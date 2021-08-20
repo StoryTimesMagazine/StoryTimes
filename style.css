@@ -14,7 +14,7 @@ header {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)),
-    url("Assets/Background2.jpg");
+    url("Assets/Background.jpeg");
   background-position: bottom;
   background-attachment: fixed;
   font-family: "Franklin Gothic";
