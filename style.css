@@ -6,7 +6,7 @@ body, html {
 
 body {
   margin: 0;
-  background: #000;
+  background: #ffffff;
   font-family: "Tahoma";
 }
 
@@ -53,7 +53,7 @@ nav li {
 }
 
 nav a {
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 18px;
@@ -141,7 +141,7 @@ li .thisyear {
 
 #links a:hover::before {
   width: 100%;
-  color: #fff;
+  color: #ffffff;
 }
 
 .editor-in-chief {
@@ -154,7 +154,7 @@ li .thisyear {
 }
 
 h1#editor-in-chief {
-  color: #fff;
+  color: #ffffff;
   font-size: 45px;
   margin: 0 auto;
 }
@@ -177,7 +177,7 @@ li#editor-in-chief {
 }
 
 h1#editors {
-  color: #fff;
+  color: #ffffff;
   font-size: 40px;
   margin: 0 auto;
 }
