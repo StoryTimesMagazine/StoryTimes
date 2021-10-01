@@ -43,7 +43,7 @@ main img {
 }
 
 .links a {
-  color: #000080;
+  color: #ffffff;
   text-decoration: none;
   font-size: 20px;
   text-transform: uppercase;
@@ -56,16 +56,16 @@ main img {
   margin-top: 20px;
   height: 3px;
   width: 0%;
-  background-color: #000080;
+  background-color: #ffffff;
   position: absolute;
   transition: all ease-in-out 250ms;
 }
 
 .links a:hover {
-  color: #000080;
+  color: #ffffff;
 }
 
 .links a:hover::before {
   width: 100%;
-  background-color: #000080;
+  background-color: #ffffff;
 }
