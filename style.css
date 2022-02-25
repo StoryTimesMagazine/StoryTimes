@@ -6,7 +6,7 @@ body, html {
 
 body {
   margin: 0;
-  background: #000000;
+  background: #ffffff;
   font-family: "Tahoma";
 }
 
@@ -53,7 +53,7 @@ nav li {
 }
 
 nav a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 18px;
@@ -61,7 +61,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #000000;
+  color: #ffffff;
 }
 
 nav a::before {
@@ -116,7 +116,7 @@ li .thisyear {
 }
 
 #links a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 35px;
@@ -133,7 +133,7 @@ li .thisyear {
   margin-top: 40px;
   height: 5px;
   width: 0%;
-  background-color: #000000;
+  background-color: #ffffff;
   position: absolute;
   top: 0;
   transition: all ease-in-out 250ms;
@@ -141,7 +141,7 @@ li .thisyear {
 
 #links a:hover::before {
   width: 100%;
-  color: #000000;
+  color: #ffffff;
 }
 
 .editor-in-chief {
@@ -154,13 +154,13 @@ li .thisyear {
 }
 
 h1#editor-in-chief {
-  color: #000000;
+  color: #ffffff;
   font-size: 45px;
   margin: 0 auto;
 }
 
 li#editor-in-chief {
-  color: #000000;
+  color: #ffffff;
   display: inline-block;
   font-size: 30px;
   text-transform: uppercase;
@@ -177,7 +177,7 @@ li#editor-in-chief {
 }
 
 h1#editors {
-  color: #000000;
+  color: #ffffff;
   font-size: 40px;
   margin: 0 auto;
 }
@@ -206,7 +206,7 @@ h1#contributing-members {
 }
 
 li#contributing-members {
-  color: #000000;
+  color: #ffffff;
   display: inline-block;
   font-size: 25px;
   text-transform: uppercase;
