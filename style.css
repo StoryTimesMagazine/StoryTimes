@@ -145,7 +145,7 @@ li .thisyear {
 }
 
 .editor-in-chief {
-  background: #050505;
+  background: #000000;
   text-align: center;
   border-bottom: 5px solid #000;
   border-right: 5px solid #000;
@@ -169,7 +169,7 @@ li#editor-in-chief {
 }
 
 .editors {
-  background: #050505;
+  background: #000000;
   text-align: center;
   border-bottom: 5px solid #000;
   border-right: 5px solid #000;
@@ -192,7 +192,7 @@ li#editors {
 }
 
 .contributing-members {
-  background: #050505;
+  background: #000000;
   text-align: center;
   border-bottom: 5px solid #000;
   border-right: 5px solid #000;
