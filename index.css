@@ -7,7 +7,7 @@ html {
 body {
   margin: 0;
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0),
+    linear-gradient(rgba(0.5, 0.5, 0.5, 0.5),
     rgba(0, 0, 0, 0)),
     url("Assets/skyscraper-6871750_1920 (1).jpg");
   background-size: cover;
