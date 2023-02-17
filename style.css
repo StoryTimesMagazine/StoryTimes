@@ -17,6 +17,8 @@ header {
     url("Assets/Drawing.sketchpad (4).png");
   background-position: top;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Franklin Gothic";
   font-weight: bold;
   /* font-size: 20px; */
