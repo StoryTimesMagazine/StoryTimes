@@ -48,7 +48,7 @@ main img {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 20px;
-  -webkit-text-stroke: 1px #000000;
+  -webkit-text-stroke: 1px #FFFFFF;
   text-transform: uppercase;
   transition: color ease 250ms;
 }
