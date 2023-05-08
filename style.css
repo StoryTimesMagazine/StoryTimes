@@ -58,8 +58,8 @@ nav a {
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-text-stroke: 1px #000000;
-  font-size: 18px;
+  -webkit-text-stroke: 1px #FFFFFF;
+  font-size: 28px;
   transition: color ease 250ms;
 }
 
